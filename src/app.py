@@ -9,8 +9,8 @@ app.secret_key = '12345'
 
 #faqslist = ["data/Greetings.csv", "data/GSTFAQs.csv"]
 faqslist = [
-    os.getcwd() + "data/Greetings.csv", 
-    os.getcwd() + "data/GSTFAQs.csv"
+    os.getcwd() + "/" + "data/Greetings.csv", 
+    os.getcwd() + "/" + "data/GSTFAQs.csv"
 ]
 
 faqmodel = FaqEngine(faqslist)
